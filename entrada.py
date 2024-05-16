@@ -1,6 +1,5 @@
-import streamlit as st
-st.tittle ("Entrada")
-mport paho.mqtt.client as paho
+
+import paho.mqtt.client as paho
 import time
 import json
 import streamlit as st
