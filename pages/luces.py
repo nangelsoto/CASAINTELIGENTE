@@ -46,7 +46,7 @@ if st.button('ON LUZ MORADA'):
     client1= paho.Client("nataliaapp")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
-    message =json.dumps({"Act2":act1})
+    message =json.dumps({"Act3":act1})
     ret= client1.publish("swich", message)
  
     #client1.subscribe("Sensores")
@@ -68,7 +68,7 @@ if st.button('OFF LUZ MORADA'):
     client1= paho.Client("nataliaapp")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
-    message =json.dumps({"Act2":act1})
+    message =json.dumps({"Act3":act1})
     ret= client1.publish("swich", message)
   
     
