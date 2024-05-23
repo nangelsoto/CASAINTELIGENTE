@@ -26,6 +26,8 @@ client1.on_message = on_message
 
 
 st.title("Control de Luces")
+image = Image.open('luces.jpeg')
+st.image(image)
 
 if st.button('ON'):
     act1="ON"
