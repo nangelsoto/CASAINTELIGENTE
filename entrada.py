@@ -39,7 +39,7 @@ image = Image.open('casa.jpeg')
 st.image(image)
 
 
-img_file_buffer = st.camera_input("Toma una Foto")
+img_file_buffer = st.camera_input("Indica si quieres abrir o cerrar la puerta")
 
 if img_file_buffer is not None:
     # To read image file buffer with OpenCV:
