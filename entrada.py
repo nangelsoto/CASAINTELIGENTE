@@ -64,7 +64,7 @@ if img_file_buffer is not None:
       st.header('Abriendo')
       client1.publish("nataliamensaje","{'gesto': 'Abre'}",qos=0, retain=False)
       time.sleep(0.2) #el mensaje es el de collab, igual que el cliente
-      st.markdown("![Alt Text](https://giphy.com/gifs/vprealty-real-estate-carinaveale-rio-grande-valley-NVsnJH2H6NKGOr8FDJ)")
+      st.markdown("![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamNoYnIyYzFtMGJrZ3hieW1xbmx4OXU0NDA3dGVzM2kyeGQ3ZnVxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NVsnJH2H6NKGOr8FDJ/giphy.gif)")
     if prediction[0][1]>0.3:
       st.header('Cerrando')
       client1.publish("nataliamensaje","{'gesto': 'Cierra'}",qos=0, retain=False)
