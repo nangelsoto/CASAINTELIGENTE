@@ -69,5 +69,5 @@ if img_file_buffer is not None:
       st.header('Cerrando')
       client1.publish("nataliamensaje","{'gesto': 'Cierra'}",qos=0, retain=False)
       time.sleep(0.2)
-      st.markdown("![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2ZhNHQ2MmpkYWNoNWhtZHMxcXQyMjdxY2ExYTBhM25jYnJ5bmtqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mjzTbdoUZH8KdtFaoF/giphy.gif")
+      st.markdown("![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2ZhNHQ2MmpkYWNoNWhtZHMxcXQyMjdxY2ExYTBhM25jYnJ5bmtqNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mjzTbdoUZH8KdtFaoF/giphy.gif)")
 
