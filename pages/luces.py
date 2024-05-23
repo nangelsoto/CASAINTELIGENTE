@@ -33,7 +33,7 @@ st.image(image)
 st.text('Indica si quieres prender o apagar los leds')
 
 if st.button('ON LUZ AMARILLA'):
-    act1="ON LUZ ROJA"
+    act1="ON LUZ AMARILLA"
     client1= paho.Client("nataliaapp")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
@@ -42,7 +42,7 @@ if st.button('ON LUZ AMARILLA'):
  
     #client1.subscribe("Sensores")
 if st.button('ON LUZ MORADA'):
-    act1="ON LUZ VERDE"
+    act1="ON LUZ MORADA"
     client1= paho.Client("nataliaapp")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
@@ -56,7 +56,7 @@ else:
     st.write('')
 
 if st.button('OFF LUZ AMARILLA'):
-    act1="OFF LUZ ROJA"
+    act1="OFF LUZ AMARILLA"
     client1= paho.Client("nataliaapp")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
@@ -64,7 +64,7 @@ if st.button('OFF LUZ AMARILLA'):
     ret= client1.publish("swich", message)
 
 if st.button('OFF LUZ MORADA'):
-    act1="OFF LUZ VERDE"
+    act1="OFF LUZ AMARILLA"
     client1= paho.Client("nataliaapp")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
