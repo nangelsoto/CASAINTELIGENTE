@@ -33,6 +33,11 @@ model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 st.title("Cerradura Inteligente")
+from PIL import Image
+
+image = Image.open('casa.jpeg')
+st.image(image)
+
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
