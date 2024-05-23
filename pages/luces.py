@@ -86,5 +86,5 @@ st.write('Values:', values)
     #ret= client1.publish("analogo", message)
     
  
-else:
-    st.write('')
+#else:
+    #st.write('')
