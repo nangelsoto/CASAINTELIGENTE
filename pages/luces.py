@@ -64,7 +64,7 @@ if st.button('OFF LUZ AMARILLA'):
     ret= client1.publish("swich", message)
 
 if st.button('OFF LUZ MORADA'):
-    act1="OFF LUZ AMARILLA"
+    act1="OFF LUZ MORADA"
     client1= paho.Client("nataliaapp")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
