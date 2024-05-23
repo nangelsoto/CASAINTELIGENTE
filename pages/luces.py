@@ -30,7 +30,7 @@ st.title("Control de Luces")
 image = Image.open('luces.jpeg')
 st.image(image)
 
-st.subheader('Indica si quieres prender o apagar los leds')
+st.text('Indica si quieres prender o apagar los leds')
 
 if st.button('ON'):
     act1="ON"
