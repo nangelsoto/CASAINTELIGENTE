@@ -76,7 +76,7 @@ else:
     st.write('')
 
 #values = st.slider('Selecciona el rango de valores',0.0, 100.0)
-st.write('Values:', values)
+#st.write('Values:', values)
 
 #if st.button('Enviar valor analógico'):
     #client1= paho.Client("nataliaapp")                           
